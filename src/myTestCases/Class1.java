@@ -27,7 +27,7 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class myTestCase1 extends myTestCase2 {
+public class Class1 extends Class2 {
 
 	@BeforeTest
 	public void mySetup() {
