@@ -200,49 +200,48 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/TasneemTanashat/automation-test-store-e2e-framework.git
-
+```
 Open the project in Eclipse and install Maven dependencies:
-
+```bash
 mvn clean install
+```
 Run the TestNG test cases.
 
 ---
+## 📊 Test Coverage
 
-# 📊 Test Coverage
-
-Test Scenario	Status
-User Registration	✅
-Login	✅
-Logout	✅
-Product Selection	✅
-Product Options Handling	✅
-Add To Cart	✅
-Cart Validation	✅
-Checkout Process	✅
-Order Confirmation	✅
+| Test Scenario | Status |
+|---|---|
+| User Registration | ✅ |
+| Login | ✅ |
+| Logout | ✅ |
+| Product Selection | ✅ |
+| Product Options Handling | ✅ |
+| Add To Cart | ✅ |
+| Cart Validation | ✅ |
+| Checkout Process | ✅ |
+| Order Confirmation | ✅ |
 
 ---
 
-#📸 Test Evidence
+## 📸 Test Evidence
 
 The project automatically generates screenshots during execution to document test execution results.
 
 ---
 
-#🚀 Future Enhancements
+## 🚀 Future Enhancements
 
-Implement Page Object Model (POM)
-Add TestNG XML suite execution
-Generate HTML test reports
-Add Data Driven Testing
-Integrate CI/CD pipeline using GitHub Actions
-Improve framework scalability
+- Implement Page Object Model (POM)
+- Add TestNG XML suite execution
+- Generate HTML test reports
+- Add Data Driven Testing
+- Integrate CI/CD pipeline using GitHub Actions
+- Improve framework scalability
 
 ---
 
-#👩‍💻 Author
+## 👩‍💻 Author
 
 Eng. Tasneem Tanashat
-
-Computer Engineer | Junior QA Engineer | Software Testing (Manual & Automation)
 
