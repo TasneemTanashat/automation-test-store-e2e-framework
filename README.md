@@ -230,17 +230,6 @@ The project automatically generates screenshots during execution to document tes
 
 ---
 
-## 🚀 Future Enhancements
-
-- Implement Page Object Model (POM)
-- Add TestNG XML suite execution
-- Generate HTML test reports
-- Add Data Driven Testing
-- Integrate CI/CD pipeline using GitHub Actions
-- Improve framework scalability
-
----
-
 ## 👩‍💻 Author
 
 Eng. Tasneem Tanashat
