@@ -7,7 +7,6 @@ import java.io.IOException;
 import java.time.Duration;
 import java.util.Date;
 import java.util.List;
-import org.testng.AssertJUnit;
 import static org.testng.Assert.assertEquals;
 
 import org.apache.commons.io.FileUtils;
@@ -94,13 +93,13 @@ public class Class1 extends Class2 {
 		Thread.sleep(3000);
 
 		String currentURL = driver.getCurrentUrl();
-		AssertJUnit.assertEquals(currentURL.contains("success"), true);
+		Assert.assertEquals(currentURL.contains("success"), true);
 
 		String title = driver.getTitle();
-		AssertJUnit.assertEquals(title.contains("Your Account Has Been Created!"), true);
+		Assert.assertEquals(title.contains("Your Account Has Been Created!"), true);
 
 		String pagesource = driver.getPageSource();
-		AssertJUnit.assertEquals(pagesource.contains(firstname), true);
+		Assert.assertEquals(pagesource.contains(firstname), true);
 
 	}
 
@@ -110,13 +109,13 @@ public class Class1 extends Class2 {
 		driver.navigate().to(logout);
 
 		String currentURL = driver.getCurrentUrl();
-		AssertJUnit.assertEquals(currentURL.contains("logout"), true);
+		Assert.assertEquals(currentURL.contains("logout"), true);
 
 		String title = driver.getTitle();
-		AssertJUnit.assertEquals(title.contains("Account Logout"), true);
+		Assert.assertEquals(title.contains("Account Logout"), true);
 
 		String pagesource = driver.getPageSource();
-		AssertJUnit.assertEquals(pagesource.contains("Account Logout"), true);
+		Assert.assertEquals(pagesource.contains("Account Logout"), true);
 
 	}
 
@@ -139,9 +138,9 @@ public class Class1 extends Class2 {
 		String title = driver.getTitle();
 		String pageSource = driver.getPageSource();
 
-		AssertJUnit.assertEquals(currentURL.contains("account/account"), true);
-		AssertJUnit.assertEquals(title.contains("My Account"), true);
-		AssertJUnit.assertEquals(pageSource.contains(firstname), true);
+		Assert.assertEquals(currentURL.contains("account/account"), true);
+		Assert.assertEquals(title.contains("My Account"), true);
+		Assert.assertEquals(pageSource.contains(firstname), true);
 
 	}
 
