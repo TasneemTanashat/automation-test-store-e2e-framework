@@ -31,6 +31,7 @@ This project demonstrates practical skills in **UI Automation Testing, Test Scen
 ---
 
 # 📂 Project Structure
+```
 automation-test-store-e2e-framework
 │
 ├── src/main/java
@@ -43,7 +44,7 @@ automation-test-store-e2e-framework
 │
 ├── pom.xml
 └── README.md
-
+```
 ---
 
 # ✅ Automated Test Scenarios
